@@ -1,0 +1,7 @@
+---
+  - name: Ensure Mozila Firefox is installed
+    win_chocolatey:
+      name: firefox -y
+      state: present
+    when: ansible_os_family == "Windows"
+...

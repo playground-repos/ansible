@@ -1,0 +1,7 @@
+---
+  - name: Ensure Java JRE8 is Installed
+    win_chocolatey:
+      name: jre8 -y
+      state: present
+    when: ansible_os_family == "Windows"
+...
