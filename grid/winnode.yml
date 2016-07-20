@@ -1,9 +1,0 @@
----
-- hosts: winnode
-  roles:
-    - chrome
-    - firefox
-    - java
-    - trondhindenes.win_reboot
-    - selenium
-...

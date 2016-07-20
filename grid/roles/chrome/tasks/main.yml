@@ -1,7 +1,0 @@
----
-  - name: Ensure Google chrome is Installed
-    win_chocolatey:
-      name: googlechrome -y
-      state: present
-    when: ansible_os_family == "Windows"
-...

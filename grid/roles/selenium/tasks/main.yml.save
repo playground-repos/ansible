@@ -1,7 +1,0 @@
----
-  - name: Ensure selenium grid node is installed
-    win_fil:
-      path: C:\Users\Administrator\Desktop\selenium 
-      state: directory
-    when: ansible_os_family == "Windows"
-...

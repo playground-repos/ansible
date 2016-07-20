@@ -1,9 +1,0 @@
----
-  - name: Create selenium folder on desktop
-    win_file:
-      path: C:\Users\{{ansible_user}}\Desktop\selenium
-      state: directory
-    when: ansible_os_family == "Windows"
-  - name: Download selenium grid extras jar if we do not have it
-    script: files/download.ps1
-...
